@@ -1773,7 +1773,7 @@
   </a>
   
   <div class="game-container">
-    <h1 class="title" class:message={message}>{!message ? 'Tic Tac Toe' : message}</h1>
+    <h1 class="title" class:message={message}>{!message ? 'TicTacAI' : message}</h1>
     
     <!-- Turn indicator with AI character info -->
     {#if !message}
